@@ -27,5 +27,40 @@ namespace App1
         {
             label1.Text=(textBox1.Text);
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void but1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("BUTTON 1ST is selected");
+        }
+
+        private void buttobut2n2_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("BUTTON 2nd is selected");
+        }
+
+        private void but3_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("BUTTON 3rd is selected");
+        }
+
+        private void but4_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("BUTTON 4th is selected");
+        }
+
+        private void but5_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("BUTTON 5th is selected");
+        }
+
+        private void but6_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("BUTTON 6th is selected");
+        }
     }
 }
