@@ -19,7 +19,8 @@ namespace App1
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            MessageBox.Show("Button is Clicked");
+            //property of message box is to display it as a dialog box.
         }
     }
 }
